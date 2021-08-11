@@ -1,0 +1,47 @@
+import React from 'react'
+
+export const About = () => {
+
+
+
+    let myStyle = {
+
+
+
+        // backgroundColor:"dimgray",
+
+        minHeight: "100vh",
+        margin: "40px auto"
+
+    }
+
+    let myStyle1 = {
+
+
+
+       
+
+        // margin: "14 rem",
+        // marginLeft:"2px",
+
+        fontSize: "x-large",
+
+        border: "4px solid black",
+        backgroundColor:"cornflowerblue",
+    }
+    return (
+        <div className="myidvp" style={myStyle}>
+
+            <div className="myidv" style={myStyle1}>
+                Hello Everyone,<div/>
+
+
+
+                <div/>I am Harsh patel, I am pursuing B.tech in ICT in Daiict and currently in my second year college. <div/>
+                <div/>I make this Todos list using React js.This todos list has function of add and deleting of your daily task. <div/>
+                <div/>I hope you like this project and this will help you to boost your productivity.
+
+            </div>
+        </div>
+    )
+}
